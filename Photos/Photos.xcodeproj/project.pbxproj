@@ -15,6 +15,7 @@
 		3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A21BE9B717009F39C5 /* Utils.swift */; };
 		3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */; };
 		3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A81BE9C5A7009F39C5 /* Photo.swift */; };
+		D00BD5861CBDBE19002B0CF2 /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00BD5851CBDBE19002B0CF2 /* PhotoCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3A1683A21BE9B717009F39C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D00BD5851CBDBE19002B0CF2 /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		3A16838E1BE9B641009F39C5 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				D00BD5841CBDBE01002B0CF2 /* Model */,
 				3A1683A51BE9C54F009F39C5 /* API */,
 				3A1683A41BE9C548009F39C5 /* Views */,
 				3A1683A11BE9B70C009F39C5 /* Utils */,
@@ -95,6 +98,14 @@
 				3A1683A81BE9C5A7009F39C5 /* Photo.swift */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		D00BD5841CBDBE01002B0CF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D00BD5851CBDBE19002B0CF2 /* PhotoCollectionCell.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00BD5861CBDBE19002B0CF2 /* PhotoCollectionCell.swift in Sources */,
 				3A1683921BE9B642009F39C5 /* PhotosCollectionViewController.swift in Sources */,
 				3A1683901BE9B642009F39C5 /* AppDelegate.swift in Sources */,
 				3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */,
